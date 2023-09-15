@@ -1,0 +1,19 @@
+{
+	"name": "kbsblog",
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro"
+	},
+	"dependencies": {
+		"@astrojs/preact": "^2.1.0",
+		"@astrojs/rss": "^2.2.0",
+		"@fontsource/roboto": "^4.5.8",
+		"astro": "^2.10.15",
+		"preact": "^10.13.1"
+	}
+}
