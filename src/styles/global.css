@@ -1,5 +1,4 @@
 html {
-  background-color: #fffffe;
   font-family: Roboto;
 }
 
@@ -9,7 +8,7 @@ body {
   max-width: 100ch;
   padding: 1rem;
   line-height: 1.5;
-  color: rgb(57, 70, 110);
+  color: #28344a;
 }
 
 p {
@@ -22,12 +21,15 @@ p {
 
 h1 {
   margin: 1rem 0 0;
-  font-size: 3.5rem;
+  font-size: 4.0rem;
+  color: #546e9e;
 }
 
 h2 {
   margin-bottom: .25rem;
-  font-size: 2rem;
+  font-size: 1.8rem;
+  font-weight: lighter;
+  color: #546e9e;
 }
 
 hr {
@@ -35,6 +37,7 @@ hr {
 	border-style: solid;
 	border-radius: .2rem;
   margin: 0;
+  color: #546e9e;
 }
 
 ul {
@@ -48,7 +51,7 @@ li {
 
 a {
   text-decoration: none;
-  color:rgb(52, 64, 99);
+  color: #28344a;
   font-size: 1.25rem;
 }
 
@@ -93,8 +96,7 @@ a:hover {
   display: block;
   text-align: center;
   text-decoration: none;
-  font-size: 1.2rem;
-  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .nav-links a:hover,
