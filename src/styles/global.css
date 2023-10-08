@@ -1,9 +1,9 @@
 html {
-  font-family: Roboto;
   background-color: #1e2229;
 }
 
 body {
+  font-family: 'Roboto Mono', monospace;
   margin: 0 auto;
   width: 100%;
   max-width: 150ch;
@@ -13,7 +13,8 @@ body {
 }
 
 p {
-  font-size: 1.25rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2rem;
 }
 
 * {
@@ -23,7 +24,8 @@ p {
 h1 {
   margin: 1rem 0 0;
   font-size: 4.0rem;
-  color: #a66bff;
+  color: #ffc582;
+  font-family: monospace;
 }
 
 h2 {
@@ -45,13 +47,13 @@ ul {
   padding: 0 1rem; 
   margin: 0; 
 }
+
 li {
-  padding: .5rem .5rem 0 0;
+  padding: 1rem .5rem 0 0;
 }
 
 a {
-  text-decoration: none;
-  font-size: 1.25rem;
+  text-decoration: underline;
   color: #ffffffb7;
 }
 
@@ -59,18 +61,6 @@ nav {
   margin-left: 0;
 }
 
-a:hover {
-  background-color: #424242;
-}
-
-a:link {
-  padding: .4rem .7rem;
-}
-
-a:hover {
-  border-radius: .3rem;
-}
-/* nav styles */
 
 .hamburger {
   padding-left: 1.4rem;
@@ -83,6 +73,16 @@ a:hover {
   width: 40px;
   height: 5px;
   margin-bottom: 10px;
+  color:#ffc582;
+}
+
+.index-blog-links a:hover {
+  background-color: rgba(219, 151, 125, 0.24);
+}
+
+.index-blog-links a {
+  font-size: 1.5rem;
+  padding: .4rem .7rem;
 }
 
 .nav-links {
@@ -98,9 +98,9 @@ a:hover {
   font-size: 1.5rem;
 }
 
-.nav-links a:hover,
-a:focus {
+.nav-links a:hover {
   border-radius: .3rem;
+  background-color: rgba(219, 151, 125, 0.24);
 }
 
 .expanded {
@@ -117,7 +117,6 @@ a:focus {
     display: block;
     position: static;
     width: auto;
-    background: none;
   }
 
   .nav-links a {

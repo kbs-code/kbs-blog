@@ -12,8 +12,10 @@
 	"dependencies": {
 		"@astrojs/preact": "^2.1.0",
 		"@astrojs/rss": "^2.2.0",
+		"@fontsource-variable/roboto-mono": "^5.0.13",
+		"@fontsource/fira-sans": "^5.0.14",
 		"@fontsource/roboto": "^4.5.8",
-		"astro": "^2.10.15",
+		"astro": "^3.2.3",
 		"preact": "^10.13.1"
 	}
 }
