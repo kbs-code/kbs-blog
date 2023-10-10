@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: "Site Changes"
-pubDate: "October 5, 2023"
+pubDate: "October 8, 2023"
 tags: ["dev"]
 ---
 
