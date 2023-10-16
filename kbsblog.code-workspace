@@ -1,8 +1,11 @@
 {
 	"folders": [
-		{
-			"path": "."
-		}
-	],
+    {
+      "path": "."
+    },
+    {
+      "path": "../posts_in_progress"
+    }
+  ],
 	"settings": {}
 }
