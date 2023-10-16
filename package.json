@@ -15,6 +15,7 @@
 		"@fontsource-variable/roboto-mono": "^5.0.13",
 		"@fontsource/fira-sans": "^5.0.14",
 		"@fontsource/roboto": "^4.5.8",
+		"@fontsource/roboto-mono": "^5.0.13",
 		"astro": "^3.2.3",
 		"preact": "^10.13.1"
 	}

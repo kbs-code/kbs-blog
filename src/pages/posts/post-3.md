@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: "Computer Hygiene: Cloning"
+title: "Backing Up With Clonezilla"
 pubDate: "October 10, 2023"
 tags: ["IT Ops"]
 ---

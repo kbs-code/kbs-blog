@@ -62,7 +62,6 @@ nav {
 
 
 .hamburger {
-  padding-left: 1.4rem;
   padding-right: 20px;
   cursor: pointer;
 }
@@ -72,17 +71,16 @@ nav {
   width: 40px;
   height: 5px;
   margin-bottom: 10px;
-  border-color:#ffc582;
+  background-color:#ffc582;
+  border-radius: .2rem;
 }
 
-.index-blog-links a:hover {
-  background-color: rgba(219, 151, 125, 0.24);
-  border-radius: .4rem;
+.post-links a:hover {
+  background-color: rgba(236, 143, 106, 0.24);
 }
 
-.index-blog-links a {
+.post-links a {
   font-size: 1.5rem;
-  padding: .4rem .7rem .7rem .7rem;
 }
 
 .nav-links {
@@ -99,7 +97,7 @@ nav {
 }
 
 .nav-links a:hover {
-  border-radius: .3rem;
+  border-radius: .5rem;
   background-color: rgba(219, 151, 125, 0.24);
 }
 
