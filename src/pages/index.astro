@@ -5,6 +5,7 @@ import BlogPost from '../components/BlogPost.astro';
 const allPosts = await Astro.glob('../pages/posts/*.md');
 ---
 <BaseLayout pageTitle={pageTitle}>
+  <h2>This is a demo blog site built with Astro.</h2>
   <h2>articles:</h2>
   <ul class="post-links">
       {allPosts.map((post) => <BlogPost url={post.url} title={post.frontmatter.title} />)}
