@@ -1,1 +1,1 @@
-This is my blog where I build things and document the process.
+This is a demo blog to demonstrate my knowledge of the Astro web framework.
