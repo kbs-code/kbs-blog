@@ -1,1 +1,1 @@
-This is a demo blog to demonstrate my knowledge of the Astro web framework.
+This is a blog built using Astro.
